@@ -1,0 +1,49 @@
+
+.carDet{
+    padding-inline: 6rem;
+    margin-top: 2rem;
+    @media screen and (max-width:768px) {
+        padding-inline:0px ;
+    }
+    .childRow{
+        background-color: white;
+        border: 1px solid #c3bfbf;
+        a{
+            text-decoration: none;
+        }
+        .fa-solid{
+            color: #0a6eb9;
+        }
+        .car{
+            width: 14rem;
+            margin-left: 2rem;
+        }
+        button{
+            background-image: none!important;
+            padding: 8px!important;
+            background-color: #fff!important;
+            color: #0a6eb9!important;
+            border: 1px solid #0a6eb9!important;
+            border-radius: 3px;
+            text-align: center!important;
+            display: block!important;
+            text-decoration: none!important;
+            font-weight: 700!important;
+            -webkit-box-shadow: none!important;
+            box-shadow: none!important;
+            width: 14rem;
+            font-size: 14px;
+
+        }
+    }
+    .goodNews{
+        margin-top: 2rem;
+        border:1px solid #00874d;
+        border-left: 3px solid #00874d;
+        padding: 10px;
+        background-color: #f2f8f5!important;
+        ._title{
+            color: #00874d!important;
+        }
+    }
+}

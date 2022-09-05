@@ -1,0 +1,231 @@
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-lg-3 col-md-4 col-sm-12 mb-3">
+            <div class="btn btn-primary w-100"><strong class="ms-2">X
+                ابحث و انتقي</strong>
+            </div> 
+            <div class="border-bottom d-flex justify-content-between mt-4">
+                <div><strong class="ms-2">REFINE BY</strong></div>
+                <div>
+                  <small><a href="" class="text-dark text-decoration-none">Clear all</a></small>
+                </div>
+              </div>
+              <div class="payroll">
+                <div class="Payroll_content">
+                  <div class="Payroll_content_title d-flex mt-3 justify-content-between" [attr.data-bs-toggle]="'collapse'"
+                    [attr.data-bs-target]="'#collapseE0'" [attr.aria-expanded]="'false'" [attr.aria-controls]="'collapseE0'">
+                    <div class="d-flex align-items-center">
+                      <img loading="lazy" class="img-fluid image me-2" style="height: fit-content"
+                        src="../../../../../assets/downarow.gif" />
+                      <div class="Payroll_content_title_text">المزود</div>
+                    </div>
+                 
+                  </div>
+        
+                  <div class="Payroll_content_description collapse" [id]="'collapseE0'">
+                    <div class="row px-0 d-flex justify-content-around">
+                      <div class="col-md-2 color bg-dark"></div>
+                      <div class="col-md-2 color bg-primary"></div>
+                      <div class="col-md-2 color bg-danger"></div>
+                      <div class="col-md-2 color bg-secondary"></div>
+                      <div class="col-md-2 color bg-success"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="border-top pt-2">
+                <div class="payroll">
+                  <div class="Payroll_content">
+                    <div class="Payroll_content_title d-flex mt-3 justify-content-between" [attr.data-bs-toggle]="'collapse'"
+                      [attr.data-bs-target]="'#collapseE'" [attr.aria-expanded]="'false'" [attr.aria-controls]="'collapseE'"
+                      (click)="active2 = !active2">
+                      <div class="d-flex align-items-center">
+                        <img loading="lazy" class="img-fluid image me-2" style="height: fit-content"
+                          src="../../../../../../../assets/downarow.gif" />
+                        <div class="Payroll_content_title_text">Size</div>
+                      </div>
+                      <div>
+                        <small><a href="" class="text-dark text-decoration-none">Clear all</a></small>
+                      </div>
+                    </div>
+        
+                    <div class="Payroll_content_description collapse" [id]="'collapseE'">
+                      <div class="form-check col-lg-7 d-flex justify-content-between">
+                        <div>
+                          <input class="form-check-input" type="checkbox" value="" id="xs" />
+                          <label class="form-check-label" for="xs"> xs </label>
+                        </div>
+                        <div class="col-4">
+                          <input class="form-check-input" type="checkbox" value="" id="s" />
+                          <label class="form-check-label" for="s"> s </label>
+                        </div>
+                      </div>
+                      <div class="form-check col-lg-7 d-flex justify-content-between">
+                        <div>
+                          <input class="form-check-input" type="checkbox" value="" id="md" />
+                          <label class="form-check-label" for="md"> md </label>
+                        </div>
+                        <div class="col-4">
+                          <input class="form-check-input" type="checkbox" value="" id="lg" />
+                          <label class="form-check-label" for="lg"> lg </label>
+                        </div>
+                      </div>
+                      <div class="form-check col-lg-7 d-flex justify-content-between">
+                        <div>
+                          <input class="form-check-input" type="checkbox" value="" id="xl" />
+                          <label class="form-check-label" for="xl"> xl </label>
+                        </div>
+                        <div class="col-4">
+                          <input class="form-check-input" type="checkbox" value="" id="xxl" />
+                          <label class="form-check-label" for="xxl"> xxl </label>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="border-top pt-2">
+                <div class="payroll">
+                  <div class="Payroll_content">
+                    <div class="Payroll_content_title d-flex mt-3 justify-content-between" [attr.data-bs-toggle]="'collapse'"
+                      [attr.data-bs-target]="'#collapseE2'" [attr.aria-expanded]="'false'" [attr.aria-controls]="'collapseE2'">
+                      <div class="d-flex align-items-center">
+                        <img loading="lazy" class="img-fluid image me-2" style="height: fit-content"
+                          src="../../../../../assets/downarow.gif" />
+                        <div class="Payroll_content_title_text">Price</div>
+                      </div>
+                      <div>
+                        <small><a href="" class="text-dark text-decoration-none">Clear all</a></small>
+                      </div>
+                    </div>
+        
+                    <div class="Payroll_content_description collapse" [id]="'collapseE2'">
+                      <div class="form-check col-lg-7">
+                        <div>
+                          <input class="form-check-input" type="checkbox" value="" id="xs" />
+                          <label class="form-check-label" for="xs"> Under 100$ </label>
+                        </div>
+                      </div>
+                      <div class="form-check col-lg-7">
+                        <div>
+                          <input class="form-check-input" type="checkbox" value="" id="xs" />
+                          <label class="form-check-label" for="xs"> 100$ -200$ </label>
+                        </div>
+                      </div>
+                      <div class="form-check col-lg-7">
+                        <div>
+                          <input class="form-check-input" type="checkbox" value="" id="xs" />
+                          <label class="form-check-label" for="xs"> Above 200$ </label>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="border-top pt-2">
+                <div class="payroll">
+                  <div class="Payroll_content">
+                    <div class="Payroll_content_title d-flex mt-3 justify-content-between" [attr.data-bs-toggle]="'collapse'"
+                      [attr.data-bs-target]="'#collapseE3'" [attr.aria-expanded]="'false'" [attr.aria-controls]="'collapseE3'">
+                      <div class="d-flex align-items-center">
+                        <img loading="lazy" class="img-fluid image me-2" style="height: fit-content"
+                          src="../../../../../assets/downarow.gif" />
+                        <div class="Payroll_content_title_text">Brands</div>
+                      </div>
+                      <div>
+                        <small><a href="" class="text-dark text-decoration-none">Clear all</a></small>
+                      </div>
+                    </div>
+        
+                    <div class="Payroll_content_description collapse" [id]="'collapseE3'">
+                      <div class="form-check col-lg-7">
+                        <div>
+                          <input class="form-check-input" type="checkbox" value="" id="xs" />
+                          <label class="form-check-label" for="xs"> Under 100$ </label>
+                        </div>
+                      </div>
+                      <div class="form-check col-lg-7">
+                        <div>
+                          <input class="form-check-input" type="checkbox" value="" id="xs" />
+                          <label class="form-check-label" for="xs"> 100$ -200$ </label>
+                        </div>
+                      </div>
+                      <div class="form-check col-lg-7">
+                        <div>
+                          <input class="form-check-input" type="checkbox" value="" id="xs" />
+                          <label class="form-check-label" for="xs"> Above 200$ </label>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- <div class="feature mt-5">
+                <div class="border-bottom"><strong>FEATURED PRODUCTS</strong></div>
+                <div>
+                  <ng-container>
+                    <div class="owl-sec secondOWL">
+                      <owl-carousel-o [options]="customOptions">
+                        <ng-container *ngFor="let item of itemDet">
+                          <ng-template carouselSlide>
+                            <div class="col-12 mycard d-flex justify-content-center align-items-center"></div>
+                          </ng-template>
+                        </ng-container>
+                      </owl-carousel-o>
+                    </div>
+                  </ng-container>
+                </div>
+                <div class="d-flex flex-column text-center align-items-center">
+                  <p>
+                    <small>Naminos elementum disumos an cosmo tincidunt loremous</small>
+                  </p>
+                  <div>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i>
+                  </div>
+                  <p><small>300$</small></p>
+                  <button class="bg-white px-3 border border-secondary">
+                    <small>ADD TO CART</small>
+                  </button>
+                </div>
+              </div> -->
+              <div class="d-flex justify-content-center">
+                <div class="homeA mt-5"></div>
+              </div>
+              <div class="d-flex justify-content-center mt-5 flex-column">
+                <p class="border-bottom" style="color: #7d7d7d">
+                  <strong>Custom CMS Block</strong>
+                </p>
+                <p style="color: #dddddd">
+                  <small><small><em>Custom CMS block displayed at the left sidebar on the Catalog
+                        Page. Put your own content here: text, html, images, media...
+                        whatever you like.</em>
+                    </small></small>
+                </p>
+                <p class="mt-3" style="color: #dddddd">
+                  <small><small><em>There are many similar sample content placeholders across the
+                        store. All editable from admin panel.</em></small></small>
+                </p>
+              </div>
+          </div>
+        <div class="col-md-8 col-sm-12">
+            <div class="d-flex ">
+                <div class="details">
+                    <p>الاستلام</p>
+                    <p>Durres - All areas 10:00 06 سبتمبر, 2022</p>
+                </div>
+            </div>
+            <div class="d-flex ">
+                <div class="cardContainer d-flex flex-column mx-2" *ngFor="let c of car_type">
+                    <div class="_title">
+                         {{c.name}} 
+                    </div>
+                    <div class="__carimg">
+                        <img src="{{c.img}}" alt="">
+                    </div>
+                    <div class="__active"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

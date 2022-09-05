@@ -1,0 +1,110 @@
+.row{
+    .details{
+        background-color: white;
+    }
+    .cardContainer
+    {
+        vertical-align: bottom;
+        width: 136px;
+        border: 0.5px solid #eee;
+        border-radius: 8px;
+        box-shadow: 0 0 6px 2px rgb(143 143 143 / 40%);
+        ._title{
+            font-size: 12px;
+        font-weight: 600;
+        line-height: 32px;
+        padding: 8px 8px 0 8px;
+        }
+        .__carimg{
+            background-color: white;
+            padding: 4px 16px 4px 16px;
+            transition-property: opacity;
+            transition-duration: .4s;
+            transition-timing-function: ease-in-out;
+        img{
+            height: auto;
+            width: 100%;
+            max-width: 90px;
+        }
+        }
+        .__active{
+            background-color: #0e94f7;
+            height: 4px;
+        }
+    }
+    .Payroll {
+        margin-top: 12rem;
+        &_text {
+            color: #26306e;
+            font-size: 40px;
+            font-weight: 600;
+        }
+        &_description {
+            color: #9a9a9a;
+            margin-top: 3rem;
+            line-height: 3rem;
+            margin-bottom: 1.5rem;
+        }
+        &_list {
+            &_item {
+                display: flex;
+                align-items: center;
+                margin-bottom: 1rem;
+                .image {
+                    width: 30px;
+                    height: 30px;
+                }
+                &_text {
+                    padding-inline: 1rem;
+                    font-size: 15px;
+                    color: #9a9a9a;
+                }
+            }
+        }
+        .Payroll_content {
+            margin-bottom: 2rem;
+            border-radius: 15px;
+            padding-inline: 1rem;
+            &.active {
+                padding-bottom: 1.5rem;
+                padding-top: 0.5rem;
+            }
+            &_title {
+                display: flex;
+                align-items: center;
+                padding-inline: 1.5rem;
+                cursor: pointer;
+                .image {
+                    margin-inline: 1rem;
+                    width: 30px;
+                    height: 30px;
+                }
+                &_text {
+                    color: #9a9a9a;
+                }
+                .burger_menu {
+                    margin-left: auto;
+                    width: 23px;
+                    height: 23px;
+                }
+                &--active {
+                    padding-block: 0.8rem;
+                    margin-bottom: 1rem;
+                    background-color: #41bed8;
+                    border-radius: 25px;
+                    .Payroll_content_title_text {
+                        color: white;
+                    }
+                }
+            }
+            &_description {
+                padding-inline: 1rem;
+                color: #9a9a9a;
+            }
+        }
+    }
+    .color {
+        width: 45px;
+        height: 45px;
+    }
+}
