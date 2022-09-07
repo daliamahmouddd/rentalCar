@@ -11,6 +11,12 @@
         a{
             text-decoration: none;
         }
+        .carDetails{
+            font-size: 14px;
+        }
+        .carDetailPrice{
+            color: #444;
+        }
         .fa-solid{
             color: #0a6eb9;
         }
@@ -33,7 +39,7 @@
             box-shadow: none!important;
             width: 14rem;
             font-size: 14px;
-
+            margin-bottom: 1rem;
         }
     }
     .goodNews{
